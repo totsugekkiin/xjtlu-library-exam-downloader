@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "XJTLU 图书馆试卷下载",
+  "version": "0.4.5",
+  "description": "从 XJTLU 图书馆试卷查看器下载当前 PDF。",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "XJTLU 试卷下载",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup": "popup.html"
+  }
+}
